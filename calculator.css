@@ -1,0 +1,65 @@
+*{
+margin:0%;
+padding:0%;
+box-sizing:border-box;
+}
+
+html,body{
+height:100%;
+width:100%;
+background: linear-gradient(black , gray, rgb(63, 58, 58));
+}
+.heading{
+    margin-top: 1.5%;
+    margin-left: 40%;
+    color: oldlace;
+    font-size: 10rem;
+    text-decoration: underline;
+    line-height: 10px;
+}
+.main{
+    position: fixed;
+    height: 90%;
+    width: 25%;
+    margin-top: 3%;
+    margin-left: 34%;
+    background-color: rgb(37, 45, 52);
+    border: 50px solid darkgray;
+    border-radius: 100px;
+    display: grid;
+    grid-template-columns: repeat(4 , auto);
+    grid-template-rows: repeat(7 , auto);
+    gap: 20px;
+    font-size: 3rem;
+    
+    text-align: right;
+    box-shadow: rgb(43, 41, 41) 0px 50px 100px -20px, rgb(32, 7, 7) 0px 30px 60px -30px, rgb(90, 77, 77) 0px -2px 6px 0px inset;
+}
+.box{
+   
+    place-items: center;
+    cursor: pointer;
+    padding: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: rgb(114, 161, 94) 0px 50px 100px -20px, rgb(79, 61, 72) 0px 30px 60px -30px, rgb(66, 49, 49) 0px -2px 6px 0px inset;
+}
+.box:hover{
+    box-shadow: rgb(194, 198, 73) 0px 50px 100px -20px, rgb(241, 102, 186) 0px 30px 60px -30px, rgb(101, 206, 235) 0px -2px 6px 0px inset;
+}
+.upper-s{
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+.screen{
+    height: 500px;
+    grid-column: 1/5;
+    grid-row: 2/4;
+}
+.equal{
+    grid-column: 4/-1;
+    grid-row: 8/-1;
+}
+/* .equal{
+    background-color: rgb(203, 59, 10);
+} */
